@@ -21,5 +21,8 @@ class QuickSortTest extends PHPUnit_Framework_TestCase
             array_push($array2sorted,$i);
         }
         $this->assertEquals($array2sorted, quicksort($array2));
+        
+        $array3 = ['f','e','d','c','b','a'];
+        $this->assertEquals(['a','b','c','d','e','f'], quicksort($array3));
     }
 }
