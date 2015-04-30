@@ -1,3 +1,4 @@
+<?php
 /**
 * Quicksort is an efficent sorting algorithm base on the paradigm divide et impera
 * Is the best algorithm base on comparison
