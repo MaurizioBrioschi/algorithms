@@ -1,3 +1,9 @@
+/**
+* Quicksort is an efficent sorting algorithm base on the paradigm divide et impera
+* Is the best algorithm base on comparison
+* Best case: Θ (n log n)
+* Bad case: Θ (n^2)
+*/
 function quicksort( $array ) {
         if( count( $array ) < 2 ) {
             return $array;
