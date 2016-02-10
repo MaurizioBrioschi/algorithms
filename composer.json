@@ -1,15 +1,24 @@
 {
-    "name": "ridesoft/algorithms",
-    "description": "Code for some common algorithms in PHP",
-    "require-dev": {
-        "phpunit/phpunit": "~4.6"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Maurizio Brioschi",
-            "email": "maurizio.brioschi@ridesoft.org"
-        }
-    ],
-    "minimum-stability": "stable"
+  "name": "ridesoft/quicksort",
+  "description": "PHP implementation of quicksort",
+  "require":{
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8",
+    "escapestudios/symfony2-coding-standard": "~2.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maurizio Brioschi",
+      "email": "maurizio.brioschi@ridesoft.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ridesoft\\Algorithm\\Quicksort\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
 }
