@@ -1,7 +1,8 @@
 Quicksort
 -------------------------
 
-![](https://travis-ci.org/MaurizioBrioschi/quicksort.svg?branch=dev)
+![](https://travis-ci.org/MaurizioBrioschi/quicksort.svg?branch=dev) 
+[![Coverage Status](https://coveralls.io/repos/github/MaurizioBrioschi/quicksort/badge.svg?branch=master)](https://coveralls.io/github/MaurizioBrioschi/quicksort?branch=dev)
 
 PHP implementation of **Quicksort** algorithm:
 Quicksort is an efficient sorting algorithm base on the paradigm divide et impera
