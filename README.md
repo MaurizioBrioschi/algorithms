@@ -4,6 +4,7 @@ Quicksort
 ![](https://travis-ci.org/MaurizioBrioschi/quicksort.svg?branch=dev) 
 [![Coverage Status](https://coveralls.io/repos/github/MaurizioBrioschi/quicksort/badge.svg?branch=master)](https://coveralls.io/github/MaurizioBrioschi/quicksort?branch=dev)
 [![Latest Stable Version](https://poser.pugx.org/ridesoft/quicksort/v/stable)](https://packagist.org/packages/ridesoft/quicksort) [![Total Downloads](https://poser.pugx.org/ridesoft/quicksort/downloads)](https://packagist.org/packages/ridesoft/quicksort) [![Latest Unstable Version](https://poser.pugx.org/ridesoft/quicksort/v/unstable)](https://packagist.org/packages/ridesoft/quicksort) [![License](https://poser.pugx.org/ridesoft/quicksort/license)](https://packagist.org/packages/ridesoft/quicksort)
+
 PHP implementation of **Quicksort** algorithm:
 Quicksort is an efficient sorting algorithm base on the paradigm divide et impera
  - Is the best algorithm base on comparison
