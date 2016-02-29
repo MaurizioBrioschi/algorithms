@@ -11,6 +11,8 @@ Quicksort is an efficient sorting algorithm base on the paradigm divide et imper
  - Best case: Θ (n log n)
  - Bad case: Θ (n^2)
 
+**Quicksort is the same algorithm that PHP uses for all the [sorting functions](http://php.net/sort), so is better to use PHP core library. This library has a only academic purpose** 
+
 # Install
 Install using composer:
 ```
