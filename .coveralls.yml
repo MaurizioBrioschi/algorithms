@@ -1,4 +1,4 @@
-service_name: travis
+service_name: travis-pro
 repo_token: WruF0ZsNHTFvTBVZ1mzBaUgE1Tr7LwoFS
 
 src_dir: .
