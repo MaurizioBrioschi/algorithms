@@ -19,4 +19,4 @@ script:
   #- phpcs src
 after_script:
   - bash <(curl -s https://codecov.io/bash)
-  - php vendor/bin/coveralls -v
+  - vendor/bin/coveralls -v
