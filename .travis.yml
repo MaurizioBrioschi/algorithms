@@ -11,6 +11,7 @@ php:
 
 before_script:
   - sudo apt-get install php-codesniffer
+  - composer require satooshi/php-coveralls
   - composer install
   - vendor/bin/phpcs --config-set installed_paths vendor/escapestudios/symfony2-coding-standard
 script:
