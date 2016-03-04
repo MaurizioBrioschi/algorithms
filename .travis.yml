@@ -19,7 +19,5 @@ script:
   #- phpcs src
 after_script:
   - sudo rm composer.lock && sudo composer require satooshi/php-coveralls dev-master --no-ansi --no-progress --no-interaction
-
-after_success:
   - bash <(curl -s https://codecov.io/bash)
   - vendor/bin/coveralls -v
