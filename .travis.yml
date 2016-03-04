@@ -11,13 +11,15 @@ php:
 
 before_script:
   - sudo apt-get install php-codesniffer
-  - composer require satooshi/php-coveralls
   - composer install
-  - vendor/bin/phpcs --config-set installed_paths vendor/escapestudios/symfony2-coding-standard
+ # - vendor/bin/phpcs --config-set installed_paths vendor/escapestudios/symfony2-coding-standard
 script:
   - mkdir -p build/logs
   - phpunit --coverage-clover build/logs/clover.xml
   #- phpcs src
 after_script:
+  - sudo rm composer.lock && sudo composer require satooshi/php-coveralls dev-master --no-ansi --no-progress --no-interaction
+
+after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - php vendor/bin/coveralls -v
+  - vendor/bin/coveralls -v
